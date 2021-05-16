@@ -1,0 +1,27 @@
+.header{
+    font-size: 100px;
+    color: white;
+}
+.allRound{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.round{
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: linear-gradient(rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 57.98%, #0A0B1A 73.26%);
+}
+@media screen and (max-width: 320px) {
+    .header{
+        font-size: 50px;
+        width: 400px;
+    }
+    .round{
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+    }
+}

@@ -1,0 +1,17 @@
+.card{
+    background-color: #111229;
+}
+.type{
+    background-color: #E5C558;
+}
+.btn{
+    color: blue;
+}
+.btn:hover{
+    color: blue;
+    transform: translate(5px);
+}
+.card{
+    height: 320px;
+    width: 280px;
+}
