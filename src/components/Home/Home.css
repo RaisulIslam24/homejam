@@ -16,7 +16,45 @@ body::before{
     opacity: .9;
     z-index: -1;
 }
-@media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 1024px) {
+    body{
+        background-image: url(https://s3-alpha-sig.figma.com/img/c7b5/3573/6991a1a773c3b45eed0c575ba2f6bd44?Expires=1621814400&Signature=PYdiLbMuDk-vNzI7tepP5XoVVfGbEy0dprpS0wH1KyCHAKcQdMXNTJaUChzvH7D00f7iGZsQ1ASDag47ayNqvPi3e1TRfbFqhI4AovWoWST5kRUAg7MqFkzkGeYVVOftmmUKYiSIISjvVA6xOFuAi5qzYFzxfTkSih3Hvcr~y7FA-E-GCerbCyKEGPviTZKQ-73kFJ4aP8F2xSa1g2cH5DCOy0JWh3igSM6wu0EQg60vHx01saN6ozdkGHkcZm-dnBgxKKhVFgRstrLFOv300HFhuW7ZdYkYd4RMKThKQATVUQrq~d-NxdOKVc7FR~wiw1wj8HwaA4KK3carLy3xZw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+        background-position: 20%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 1;
+    }
+    body::before{
+        position: absolute;
+        content: "";
+        top:0;
+        width: 1270px;
+        height: 700px;
+        background: linear-gradient(rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 57.98%, #0A0B1A 73.26%);
+        opacity: .9;
+        z-index: -1;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    body{
+        background-image: url(https://s3-alpha-sig.figma.com/img/c7b5/3573/6991a1a773c3b45eed0c575ba2f6bd44?Expires=1621814400&Signature=PYdiLbMuDk-vNzI7tepP5XoVVfGbEy0dprpS0wH1KyCHAKcQdMXNTJaUChzvH7D00f7iGZsQ1ASDag47ayNqvPi3e1TRfbFqhI4AovWoWST5kRUAg7MqFkzkGeYVVOftmmUKYiSIISjvVA6xOFuAi5qzYFzxfTkSih3Hvcr~y7FA-E-GCerbCyKEGPviTZKQ-73kFJ4aP8F2xSa1g2cH5DCOy0JWh3igSM6wu0EQg60vHx01saN6ozdkGHkcZm-dnBgxKKhVFgRstrLFOv300HFhuW7ZdYkYd4RMKThKQATVUQrq~d-NxdOKVc7FR~wiw1wj8HwaA4KK3carLy3xZw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+        background-position: 20%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 1;
+    }
+    body::before{
+        position: absolute;
+        content: "";
+        top:0;
+        width: 1176px;
+        height: 700px;
+        background: linear-gradient(rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 57.98%, #0A0B1A 73.26%);
+        opacity: .9;
+        z-index: -1;
+    }
+  }
+  @media only screen and (max-width: 320px) {
     body{
         background-image: url(https://s3-alpha-sig.figma.com/img/c7b5/3573/6991a1a773c3b45eed0c575ba2f6bd44?Expires=1621814400&Signature=PYdiLbMuDk-vNzI7tepP5XoVVfGbEy0dprpS0wH1KyCHAKcQdMXNTJaUChzvH7D00f7iGZsQ1ASDag47ayNqvPi3e1TRfbFqhI4AovWoWST5kRUAg7MqFkzkGeYVVOftmmUKYiSIISjvVA6xOFuAi5qzYFzxfTkSih3Hvcr~y7FA-E-GCerbCyKEGPviTZKQ-73kFJ4aP8F2xSa1g2cH5DCOy0JWh3igSM6wu0EQg60vHx01saN6ozdkGHkcZm-dnBgxKKhVFgRstrLFOv300HFhuW7ZdYkYd4RMKThKQATVUQrq~d-NxdOKVc7FR~wiw1wj8HwaA4KK3carLy3xZw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
         background-position: 20%;
