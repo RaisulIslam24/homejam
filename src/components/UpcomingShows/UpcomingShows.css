@@ -1,5 +1,11 @@
 .shows{
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 15px;
+}
+hr.line{
+    border: 2px solid #0259EB;
+    width: 50px;
+    border-radius: 10px;
 }

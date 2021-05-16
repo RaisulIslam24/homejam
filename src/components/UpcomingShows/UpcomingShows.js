@@ -27,10 +27,11 @@ const data = [
 const UpcomingShows = () => {
     return (
         <div className="mt-5 pb-5">
-            <div className="mb-5 d-flex justify-content-between">
+            <div className="d-flex justify-content-between">
                 <h2 className="text-white">Upcoming Shows</h2>
                 <a href="/" style={{color: '#E5C558', textDecoration: "none"}}>View All</a>
             </div>
+            <hr className="line"></hr>
             <div className="shows">
                 {
                     data.map(data => <UpcomingShowDetails data={data}></UpcomingShowDetails>)

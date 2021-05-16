@@ -30,10 +30,11 @@ const data = [
 const Reviews = () => {
     return (
         <div className="mt-5 pb-5">
-            <div className="mb-5 d-flex justify-content-between">
+            <div className="d-flex justify-content-between">
                 <h2 className="text-white">Reviews</h2>
                 <a href="/" style={{ color: "white", textDecoration: "none" }}>1/12 <FontAwesomeIcon icon={faArrowLeft} className="ms-3" /> <FontAwesomeIcon icon={faArrowRight} className="ms-3" /></a>
             </div>
+            <hr className="line"/>
             <div className="reviews">
                 {
                     data.map(data => <Review data={data}></Review>)
